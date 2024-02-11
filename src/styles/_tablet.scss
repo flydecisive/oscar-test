@@ -1,0 +1,194 @@
+@media (min-width: 768px) and (max-width: 1365px) {
+    .center {
+        padding: 0 32px;
+    }
+    
+    // header start
+
+    .header {
+        padding-top: 47px;
+        position: relative;
+
+        &__content {
+            margin-top: 112px;
+            padding-bottom: 190px;
+
+            &-contact {
+                margin-top: 41px;
+                padding-top: 50px;
+                padding-bottom: 50px;
+            }
+        }
+
+        &__illustration {
+            width: 336px;
+            height: 292.13px;
+            position: absolute;
+            bottom: 107.87px;
+            right: 32px;
+        }
+
+        &__text{
+            &-contact {
+                width: 520px;
+            }
+        }
+    }
+
+    // header end
+
+    // main start
+
+    .main {
+        padding-top: 64px;
+        padding-bottom: 109px;
+        gap: 127px;
+
+        &-contact {
+            padding-top: 64px;
+            padding-bottom: 64px;
+            gap: 64px;
+            padding-left: 0px;
+            padding-right: 0px;
+            align-items: center;
+        }
+
+        &__info {
+            &-wrapper {
+                display: flex;
+                flex-flow: column nowrap;
+                align-items: center;
+                gap: 32px;
+            }
+
+            &-card {
+                box-shadow: 5px 20px 50px 0px rgba(16, 112, 177, 0.2);
+                padding: 40.96px 30.07px 41.47px 30.06px;
+                gap: 42px;
+                width: 334.97px;
+
+                &__img {
+                    transform: scale(0.92);
+                }
+
+                &__text {
+                    width: 100%;
+                    margin-top: 14.09px;
+                    margin-bottom: 26.31px;
+                }
+            }
+        }
+
+        &__projects {
+            &-text {
+                width: 520px;
+            }
+
+            &-wrapper {
+                grid-template-rows: 296.68px 253px;
+            }
+
+            &-elem {
+                background-size: contain;
+                
+                &-1 {
+                    background-image: linear-gradient(90deg, #1f3f68 0%, rgba(31, 63, 104, 0.37) 99.82%), url(../../public/img/project-1.png);
+
+                    &__group {
+                        display: block;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                    }
+                }
+
+                &__title {
+                    &-left {
+                        left: 19.41px;
+                        top: 19.41px;
+                    }
+                }
+            }
+        }
+    }
+
+    .contact {
+        flex-flow: column nowrap;
+        gap: 64px;
+        padding-left: 124px;
+        padding-right: 124px;
+
+        &__form {
+            width: 520px;
+        }
+    }
+
+    .map {
+        height: 392px;
+    }
+
+    // main end
+
+    // footer start
+
+    .footer {
+        padding-top: 47px;
+        padding-left: 124px;
+        padding-right: 124px;
+        padding-bottom: 64px;
+
+        &__content {
+            padding-bottom: 64px;
+
+            &-wrapper {
+                width: 336px;
+            }
+        }
+
+        &__heading {
+            width: 100%;
+        }
+
+        &__line {
+            top: 321px;
+        }
+
+        &__info {
+            &-list {
+                flex-flow: column nowrap;
+            }
+
+            &-item {
+                padding-left: 36.87px;
+
+                &:first-child {
+                    margin-bottom: 25.22px;
+                }
+
+                &:last-child {
+                    margin-top: 17.78px;
+                }
+            }
+
+            &-item br {
+                display: none;
+            }
+        }
+    }
+
+    // footer end
+
+    .heading {
+        &-black {
+            text-align: center;
+        }
+    }
+
+    .button {
+        &-rectangle {
+            width: 133.04px;
+            height: 31.48px;
+            padding: 0;
+        }
+    }
+}

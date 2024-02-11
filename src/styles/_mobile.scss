@@ -1,0 +1,302 @@
+@media (min-width: 375px) and (max-width: 767px) {
+    .center {
+        padding: 0 16px;
+    }
+
+    .layout {
+        height: 100dvh;
+    }
+
+    // header start
+
+    .header {
+        padding-top: 16px;
+        position: relative;
+
+        &__content {
+            margin-top: 28px;
+            width: 100%;
+            align-items: center;
+            padding-bottom: 40.58px;
+
+            &-contact {
+                margin-top: 25px;
+                padding-top: 48px;
+                padding-bottom: 61px;
+                gap: 32px;
+            }
+
+            &-wrapper {
+                width: 100%;
+                display: flex;
+                align-items: center;
+            }
+        }
+
+        &__text {
+            width: 100%;
+            text-align: center;
+            margin-top: 12px;
+            margin-bottom: 32px;
+
+            &-contact{
+                width: 341px;
+            }
+        }
+
+        &__illustration {
+            display: none;
+        }
+    }
+
+    // header end
+
+    // main start
+
+    .main {
+        padding-top: 48px;
+        padding-bottom: 64px;
+        gap: 64px;
+
+        &-contact {
+            padding-top: 48px;
+            padding-bottom: 32px;
+            gap: 32px;
+            padding-left: 0px;
+            padding-right: 0px;
+            align-items: center;
+        }
+
+        &__info {
+            &-wrapper {
+                display: flex;
+                flex-flow: column nowrap;
+                align-items: center;
+                gap: 32px;
+            }
+
+            &-card {
+                padding: 40.96px 30.06px 21px 30px;
+
+                &__text {
+                    margin-top: 14.09px;
+                    margin-bottom: 46.14px;
+                }
+            }
+        }
+
+        &__projects {
+            &-text {
+                width: 100%;
+            }
+
+            &-wrapper {
+                width: 100%;
+                margin-top: 82px;
+                grid-template-columns: 1fr;
+                grid-template-rows: 144.42px 255px 262px;
+                gap: 16px;
+            }
+
+            &-elem {
+                background-size: contain;
+                
+                &-1 {
+                    background-image: linear-gradient(90deg, #1f3f68 0%, rgba(31, 63, 104, 0.37) 99.82%), url(../../public/img/project-1.png);
+
+                    &__group {
+                        width: 133.02px;
+                        height: 140px;
+                        display: block;
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                    }
+                }
+
+                &-span {
+                    grid-column: span 1;
+                }
+
+                &__title {
+                    line-height: 16px;
+
+                    &-left {
+                        left: 16px;
+                        top: 26px;
+                        font-size: 16px;
+                    }
+
+                    &-right {
+                        top: 16px;
+                        right: 16px;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+
+    .contact {
+        flex-flow: column nowrap;
+        gap: 32px;
+        padding-left: 15px;
+        padding-right: 15px;
+
+        &__form {
+            width: 342.67px;
+            padding: 36px 35.54px 35.98px 35.54px;
+
+            &-wrapper {
+                margin-top: 31px;
+                margin-bottom: 46.26px;
+                gap: 20.99px;
+            }
+
+            &-item {
+                display: flex;
+                flex-flow: column nowrap;
+                gap: 0px;
+    
+                &__label {
+                    font-size: 14px;
+                }
+    
+                &__input, &__textarea {
+                    padding: 13.02px 22.46px;
+                    font-size: 14px;
+                }
+    
+                &__textarea {
+                    height: 92.52px;
+                }
+            }
+        }
+
+        &__title {
+            font-size: 16px;
+        }
+
+        &__content {
+            gap: 34px;
+        }
+    }
+
+    .map {
+        height: 349px;
+    }
+
+    // main end
+
+    // footer start
+
+    .footer {
+        padding-top: 18px;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-bottom: 32px;
+
+        &__content {
+            padding-bottom: 40.52px;
+            flex-flow: column nowrap;
+            gap: 40px;
+
+            &-wrapper {
+                width: 100%;
+            }
+        }
+
+        &__heading {
+            width: 100%;
+
+            & br {
+                display: inline-block;
+            }
+        }
+
+        &__text {
+            text-align: center;
+        }
+
+        &__line {
+            top: 310px;
+        }
+
+        &__info {
+            padding-top: 32px;
+            padding-bottom: 32px;
+
+            &-list {
+                flex-flow: column nowrap;
+            }
+
+            &-item {
+                padding-left: 23px;
+                line-height: 16px;
+
+                &:first-child {
+                    margin-bottom: 17.22px;
+                }
+
+                &:last-child {
+                    margin-top: 17.78px;
+                }
+            }
+
+            &-item br {
+                display: inline-block;
+            }
+        }
+    }
+
+    // footer end
+
+    .title {
+        text-align: center;
+        font-size: 32px;
+        line-height: 32px;
+        letter-spacing: 0.04em;
+
+        & br {
+            display: block;
+        }
+
+        &-contact {
+            font-size: 24px;
+            line-height: 24px;
+        }
+    }
+
+    .heading {
+        font-size: 24px;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .button {
+        width: 108px;
+        height: 27.42px;
+        padding: 0;
+        font-size: 12px;
+        line-height: 26px;
+
+        &-form {
+            width: 100%;
+            text-transform: uppercase;
+            font-size: 16px;
+            height: fit-content;
+            padding: 15px 0;
+        }
+
+        &-rectangle {
+            width: 108.23px;
+            height: 31.48px;
+            padding: 0;
+        }
+    }
+
+    .copyright {
+        width: 100%;
+        text-align: center;
+    }
+}
