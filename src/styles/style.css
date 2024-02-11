@@ -616,7 +616,7 @@ body {
     padding: 0;
   }
 }
-@media (min-width: 374px) and (max-width: 767px) {
+@media (min-width: 325px) and (max-width: 767px) {
   .center {
     padding: 0 16px;
   }
